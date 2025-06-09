@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <main id="App">
+        <section id="Result">
+            <form>
+                <input type="text" name="Result" id="result" value="0" readonly maxlength="5">
+            </form>
+        </section>
+
+        <section id="mainSection">
+            <section id="group1">
+                <div class="function" id="CE">
+                    <button class="function" id="CE">CE</button>
+                </div>
+                <div class="function" id="C">
+                    <button class="function">C</button>
+                </div>
+                <div class="function" id="previous">
+                    <button class="function"><i class='bxr  bx-backspace'></i></button>
+                </div>
+            </section>
+
+            <section id="group2">
+                <div class="button" id="seven">
+                    <button class="button">7</button>
+                </div>
+                <div class="button" id="eight">
+                    <button class="button">8</button>
+                </div>
+                <div class="button" id="nine">
+                    <button class="button">9</button>
+                </div>
+                <div id="division" class="function">
+                    <button class="function">/</button>
+                </div>
+            </section>
+
+            <section id="group3">
+                <div class="button" id="four">
+                    <button class="button">4</button>
+                </div>
+                <div class="button" id="five">
+                    <button class="button">5</button>
+                </div>
+                <div class="button" id="six">
+                    <button class="button">6</button>
+                </div>
+                <div class="function" id="multiply">
+                    <button class="function">x</button>
+                </div>
+            </section>
+
+            <section id="group4">
+                <div class="button" id="one">
+                    <button class="button">1</button>
+                </div>
+                <div class="button" id="two">
+                    <button class="button">2</button>
+                </div>
+                <div class="button" id="three">
+                    <button class="button">3</button>
+                </div>
+                <div id="minus" class="function">
+                    <button class="function">-</button>
+                </div>
+            </section>
+
+            <section id="group5">
+                <div class="button" id="equals">
+                    <button class="button" id="equals"><i class='bxr bx-equal'></i></button>
+                </div>
+                <div class="button" id="zero">
+                    <button class="button">0</button>
+                </div>
+                <div id="dot"class="function">
+                    <button class="function">.</button>
+                </div>
+                <div id="plus" class="function">
+                    <button class="function">+</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
