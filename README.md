@@ -26,7 +26,7 @@ A simple and stylish calculator built with **HTML**, **CSS**, and **JavaScript**
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/calculator.git
+   git clone https://github.com/JimmyVS/OnlineCalculator.git
    ```
 2. Open in your browser:
 Open index.html with your favorite browser.
